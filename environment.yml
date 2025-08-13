@@ -1,0 +1,11 @@
+name: dgnviewer
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - gdal
+  - streamlit
+  - pydeck
+  - pip
+  - pip:
+      - geojson
