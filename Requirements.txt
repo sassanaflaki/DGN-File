@@ -1,0 +1,5 @@
+streamlit>=1.36
+pydeck>=0.9
+
+# Prefer installing GDAL with conda for compatibility, but if using pip, make sure the GDAL version matches your Python and OS
+gdal>=3.6,<3.9
